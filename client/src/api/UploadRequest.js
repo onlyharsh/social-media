@@ -9,7 +9,7 @@
 
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000" });
+const API = axios.create({ baseURL: "https://api-social-media-wf62.onrender.com" });
 
 
 export const uploadImage = (data) => API.post("/upload/", data);
