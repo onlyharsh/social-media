@@ -28,7 +28,9 @@ const UserSchema=mongoose.Schema(
         studyingin: String,
         livesin: String,
         worksat: String,
+        contact: String,
         relationship:String,
+        desc:String,
         followers: [],
         following: []
     },
